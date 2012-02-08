@@ -1,24 +1,27 @@
-#sdk: "/Users/balajidl/.rvm/gems/ruby-1.9.2-p290/gems/rhodes-3.3.1"
-sdkversion: 3.3.0
-name: rhodes_highcharts_demo/
-version: 1.0
-vendor: rhomobile
-build: debug
+--- 
+extensions: 
+- json
+- another-extension
+name: rhodes_highcharts_demo
+wp: 
+  productid: 74e24100-347c-012f-1d62-482a14274cb5
 bbver: 4.6
+sdk: C:/Spritle/setup/RhoStudio/ruby/lib/ruby/gems/1.8/gems/rhodes-3.2.3
+android: 
+  version: 3.0
+  emulator: Android3.0
 applog: rholog.txt
-iphone:
-  configuration: Release
-  sdk: iphonesimulator5.0
-  provisionprofile:
-  codesignidentity:
-  entitlements:
-  BundleIdentifier: com.rhomobile.rhodeshighchartsdemo
+build: debug
+version: 1.0
+symbian: 
+  uid: "0xec3ec8ae"
+vendor: rhomobile
+sdkversion: 3.3.0
+iphone: 
   BundleURLScheme: rhodeshighchartsdemo
-wp:
-  productid: '74e24100-347c-012f-1d62-482a14274cb5'
-symbian:
-  uid: '0xec3ec8ae'
-android:
-  version: 2.1
-
-extensions: ["json", "another-extension"]
+  provisionprofile: 
+  BundleIdentifier: com.rhomobile.rhodeshighchartsdemo
+  sdk: iphonesimulator5.0
+  entitlements: 
+  codesignidentity: 
+  configuration: Release
