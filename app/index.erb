@@ -1,8 +1,7 @@
 <div data-role="page" data-url="<%= Rho::RhoConfig.start_path %>/">
-  <script type="text/javascript" src="/public/js/highcharts.js"></script>
-  <script type="text/javascript" src="/public/js/exporting.js"></script>
+ 
   <div data-role="header" data-position="inline">
-    <h1>RhodesHighchartsDemo/</h1>
+    <h1>RhodesHighchartsDemo</h1>
     <% if SyncEngine::logged_in > 0 %>
     <a href="<%= url_for :controller => :Settings, :action => :do_sync %>" class="ui-btn-left" data-icon="refresh">
       Sync
